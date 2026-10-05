@@ -5,7 +5,7 @@
 
 > Powering specialized merchant storefronts, rapid in-store retail checkout, real-time inventory telemetry, and global multi-currency commerce under a unified architecture.
 
-**[🌐 Live Production Platform](https://www.dilnova.pp.ua)** • **[🏪 Featured Merchant Store](https://www.dilnova.pp.ua/vendors/dilnova-store-1791091487082723232)** • **[🎬 Watch 4-Minute Demo Video](https://www.youtube.com)**
+**[🌐 Live Production Platform](https://www.dilnova.pp.ua)** • **[🏪 Featured Merchant Stores](https://www.dilnova.pp.ua/vendors)** • **[🎬 Watch 4-Minute Demo Video](https://youtu.be/VR7U_lXBiYc?si=dnR7-WKQR3plKxTx)**
 
 ---
 
