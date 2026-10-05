@@ -1,98 +1,60 @@
 <div align="center">
-  <img src="https://via.placeholder.com/150x150?text=Dilnova+Logo" alt="Dilnova Logo" width="120" height="120" />
-  <h1>Dilnova Commerce Hub</h1>
-  <p><b>The Enterprise Multi-Vendor Marketplace Ecosystem</b></p>
-  <p><em>Powering specialized storefronts, robust POS billing, and central inventory management under a single, unified architecture.</em></p>
-  
-  [![Ecosystem](https://img.shields.io/badge/Ecosystem-4_Brands-blue.svg)]()
-  [![Architecture](https://img.shields.io/badge/Architecture-Multi--Tenant-purple.svg)]()
-</div>
+
+# 🌐 Dilnova Commerce Hub
+### Enterprise Multi-Tenant eCommerce & Physical Point of Sale (POS) Platform
+
+> Powering specialized merchant storefronts, rapid in-store retail checkout, real-time inventory telemetry, and global multi-currency commerce under a unified architecture.
+
+**[🌐 Live Production Platform](https://www.dilnova.pp.ua)** • **[🏪 Featured Merchant Store](https://www.dilnova.pp.ua/vendors/dilnova-store-1791091487082723232)** • **[🎬 Watch 4-Minute Demo Video](https://www.youtube.com)**
 
 ---
+
+`Next.js 16 App Router` • `TypeScript (Strict)` • `Drizzle ORM` • `PostgreSQL (Supabase)` • `Clerk RBAC` • `Tailwind CSS`
+
+---
+
+</div>
 
 ## 🌍 Welcome to Dilnova
 
-**Dilnova** is an advanced, multi-tenant eCommerce platform engineered for scale. As a mother company, Dilnova provides the secure, blazingly fast infrastructure needed to power a diverse family of brands. From intelligent online checkout journeys to in-store Point of Sale (POS) operations, Dilnova bridges the gap between digital and physical retail.
+**Dilnova Commerce Hub** is an enterprise-grade multi-vendor eCommerce ecosystem engineered from the ground up for high-velocity digital and physical retail. From seamless multi-vendor online checkout journeys to physical counter Point of Sale (POS) operations with printable thermal receipts, Dilnova bridges the gap between digital storefronts and brick-and-mortar retail counters.
 
 ---
 
-## 🏛️ Our Premier Ecosystem
+## 🚀 Core Platform Capabilities
 
-Dilnova powers a curated network of specialized storefronts. Each division operates with complete autonomy while benefiting from our centralized commerce engine:
+### 🏪 1. Multi-Tenant Storefront Isolation
+Every registered merchant operates an independent digital storefront with custom branding, localized catalogs, and stock availability badges. Every database query is strictly scoped by Clerk `orgId`, ensuring **zero cross-tenant data exposure**.
 
-* 🏗️ **Distar Hardware:** Heavy-duty machinery, contractor supplies, and industrial-grade tools.
-* 🌿 **Distar Nursery:** Exotic indoor plants, organic botanical supplies, seeds, and landscaping consulting.
-* 💻 **Distar Tech:** High-performance developer workstations, IoT configurations, and enterprise server accessories.
-* 🤝 **Dilstar Services:** Connect with master gardeners, tool technicians, and tech architects through our seamless booking portal.
+### ⚡ 2. Integrated Retail Point of Sale (POS) Register
+Designed for retail physical counters and tablet checkout:
+- Instant barcode lookup and product quick-select grid
+- Real-time itemized tax computation
+- Tendered cash handling with dynamic change due calculation
+- Instant 58mm thermal receipt generation with barcode footers
 
----
+### 💱 3. Dynamic Multi-Currency Presentment Engine
+Global shoppers can seamlessly toggle presentment currencies (e.g., **LKR ↔ USD**) in real time with cached exchange rates, automatically re-calculating product prices, cart line items, and tax classes.
 
-## 🚀 Platform Capabilities
+### 📦 4. Warehouse Inventory Telemetry & Audit Trails
+Store administrators track stock across SKUs and physical warehouse bin storage locations (e.g., `Bin A1-S02`), receive automated low-stock warnings, and review immutable movement audit logs covering inbound restocks, customer orders, and POS disbursements.
 
-Dilnova is built on the bleeding edge of web technology (Next.js App Router, Supabase, Drizzle ORM) to deliver enterprise-grade performance.
+### 🚚 5. Post-Purchase Transparency & Automated Invoices
+- **Enterprise Tax Invoices**: Print-ready invoices itemized by tax class with bank wire verification slips.
+- **Real-Time Tracking**: 3-stage live courier milestone stepper (`Dispatched` → `In Transit` → `Delivered`).
 
-### 🏢 Multi-Tenant Storefront Isolation
-Dilnova isolates stores at the tenant level using robust Clerk Organization configurations. Each registered brand or vendor operates their catalog, layout, and settings in a dedicated, secure workspace.
-
-### 🛒 Unified Multi-Vendor Cart
-Add products from completely different vendors (e.g., a server rack from *Distar Tech* and bio-plants from *Nursery*) to a single persistent cart and manage the checkout journey seamlessly in one transaction.
-
-### 🏪 Built-In POS & Inventory Management (IMS)
-* **Point of Sale (POS):** A secure billing register for your cashiers to process in-store sales, deplete central stock in real-time, and print thermal receipts.
-* **Multi-Branch Inventory:** Track stock locations (Bin tracking), manage supplier directories, and receive automated low-stock warnings across multiple physical branches.
-
-### 🔐 Role-Based Access Control (RBAC)
-Enterprise-grade authorization dictates catalog management. Roles like Superadmin, Vendor Admin (`org:admin`), and Vendor Member (`org:member`) strictly separate consumer shopping experiences from sensitive dashboard configurations.
+### 🛡️ 6. Superadmin SaaS Governance & GDPR Compliance
+Platform superadmins oversee global tenant analytics, manage multi-tier SaaS subscriptions (Starter, Growth, Enterprise), and execute automated GDPR customer data exports (`.json`) backed by cryptographic SHA-256 integrity verification.
 
 ---
 
-## 💎 Flexible Pricing Plans
+## 💻 Engineering Architecture
 
-Dilnova offers scalable subscription plans for businesses of all sizes, allowing you to choose exactly what you need.
-
-### 🟢 Starter Plan (Free for All)
-Perfect for independent creators and hobbyists launching their first store.
-* **Cost:** $0 / month
-* **Features Include:**
-  * 1 Storefront Profile
-  * Up to 10 active listings
-  * Standard customer reviews
-  * Basic profile customization
-  * Access to the POS register and basic IMS
-
-### 🟣 Growth Plan
-Ideal for growing brands and businesses requiring advanced digital engagement.
-* **Cost:** $5 / yearly
-* **Features Include:**
-  * 1 Storefront Profile
-  * **Unlimited** active listings
-  * Interactive Q&A system for products
-  * Multiple images & videos per listing
-  * Premium custom storefront themes
-
-### ⚫ Enterprise Plan
-Built for large organizations needing multiple stores and dedicated setups.
-* **Cost:** Custom Pricing
-* **Features Include:**
-  * Multiple Storefront Profiles under one umbrella
-  * Unlimited listings & rich media uploads
-  * Customer reviews & interactive Q&A
-  * Custom branding configurations
-  * Priority support & management
-
----
-
-## 🤝 Partner With Us
-
-Are you a brand looking to scale? An enterprise needing a reliable marketplace infrastructure? We provide partners and merchants with robust tools to scale.
-
-**Get in Touch:**
-Whether you need to integrate, register a vendor organization, or want more details, we exclusively handle inquiries through our website. 
-
-👉 **Please visit our website and use the Contact Form to reach our team.**
-
----
-
-<div align="center">
-  <p>Copyright © Dilnova. All rights reserved.</p>
-</div>
+```mermaid
+graph TD
+    Client["Browser / Tablet / Mobile POS"] --> Proxy["Next.js 16 proxy.ts (CSP Nonces & Auth Routing)"]
+    Proxy --> App["Next.js 16 App Router (React 19 Server Components)"]
+    App --> Clerk["Clerk Authentication (Tenant RBAC orgId Scoping)"]
+    App --> Drizzle["Drizzle ORM (Type-Safe Query Layer)"]
+    Drizzle --> Supabase["Supabase PostgreSQL (Pooled Connections)"]
+    App --> Edge["Vercel Edge CDN Deployment (hnd1 Region)"]
